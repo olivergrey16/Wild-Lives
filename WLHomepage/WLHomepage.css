@@ -1,23 +1,86 @@
-a {
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    position: sticky;
+    top: 0;
     overflow: hidden;
     background-color: #15983A;
+    width: 100%;
+
 }
 
-a {
+li {
+    list-style-type: none;
     float: left;
 }
 
-a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+li a {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #15983A;
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  width: auto;
 }
 
-a:hover {
+.sticky{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
     background-color: #1bc14a;
+}
+
+#logo{
+  align: center;
+  text-align: center;
+}
+
+#logo_img {
+  height: 91.2px;
+  width: 333.2px;
+}
+
+#tree {
+  /*z-index: -1;
+  align: center;*/
+  margin-left:auto;
+  margin-right:auto;
+  position:relative;
+  width:
+
+}
+
+#pictures {
+  background-color: #ffffff; 
+  align: center;
+  text-align: center;
+}
+
+#deer {
+   /*z-index: 1;*/
+   width: 150px;
+   height: 150px;
+   position: absolute;
+   left: 540px;
+   top: 700px;
+}
+
+#birdy {
+  width: 113.8px;
+  height: 98.8;
+  position: absolute;
+  top: 200px;
+  left: 1000px;
 }
