@@ -1,0 +1,58 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: #15983A;
+    width: 100%;
+
+}
+
+li {
+    list-style-type: none;
+    float: left;
+}
+
+li a {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #15983A;
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  width: auto;
+}
+
+.sticky{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #1bc14a;
+}
+#logo{
+  align: center;
+  text-align: center;
+}
+
+#logo_img {
+  height: 91.2px;
+  width: 333.2px;
+}
+h2 {
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+color: #15983A;
+font-size: 12pt;
+font-weight: lighter;
+}
