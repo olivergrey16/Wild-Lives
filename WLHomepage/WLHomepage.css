@@ -74,7 +74,7 @@ background-color:#1bc14a;
 }
 
 #deer {
-   /*z-index: 1;*/
+   z-index: 200000000;
    width: 150px;
    height: 150px;
    position: absolute;
@@ -194,4 +194,10 @@ background-color:#1bc14a;
   position: absolute;
   top:760px;
   left: 87%;
+}
+
+h5{
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font-size: 3pt;
+color: #15983A;
 }
