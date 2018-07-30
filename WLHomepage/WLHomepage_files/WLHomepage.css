@@ -53,33 +53,29 @@ background-color:#1bc14a;
 }
 
 #tree {
-  z-index: 99999;
-  align: center;
+  /*z-index: -1;
+  align: center;*/
   margin-left:auto;
   margin-right:auto;
-  position:absolute;
-  left: 30%;
-  top: 200px;
+  position:relative;
   width:596.4px;
   height:628.32px;
 
 }
 
-
 #pictures {
   background-color: /*#ffffff/*/#bfe4ff;
   align: center;
   text-align: center;
-  height: 660px;
 }
 
 #deer {
-   z-index: 200000000;
+   /*z-index: 1;*/
    width: 150px;
    height: 150px;
    position: absolute;
-   left: 30%;
-   top: 670px;
+   left: 490px;
+   top: 650px;
 }
 
 #birdy {
@@ -93,111 +89,34 @@ background-color:#1bc14a;
   width: 262px;
   height: 263px;
   position: absolute;
-  top: 400px;
-  left: 60%;
-  z-index: 1;
+  top: 200px;
+  left: 1000px;
 }
 #cloud2 {
   width: 262px;
   height: 263px;
   position: absolute;
-  top: 250px;
-  left: 2%;
+  top: 200px;
+  left: 50px;
 }
 #cloud3 {
   width: 262px;
   height: 263px;
   position: absolute;
   top: 200px;
-  left: 75%;
+  left: 1000px;
 }
 #cloud4 {
   width: 262px;
   height: 263px;
   position: absolute;
-  top: 150px;
-  left: 20%;
+  top: 200px;
+  left: 1000px;
 }
-#cloud5 {
+#cloud4 {
   width: 262px;
   height: 263px;
   position: absolute;
-  top: 180px;
-  left: 10%;
-}
-#grass1 {
-  width: 180px;
-  height: 90px;
-  position: absolute;
-  top:760px;
-  left: 0%;
-}
-#grass2 {
-  width: 180px;
-  height: 90px;
-  position: absolute;
-  top:760px;
-  left:10%;
-}
-#grass3 {
-  width: 180px;
-  height: 90px;
-  position: absolute;
-  top:760px;
-  left: 20%;
-}
-#grass4 {
-  width: 180px;
-  height: 90px;
-  position: absolute;
-  top:760px;
-  left: 30%;
-}
-#grass5 {
-  width: 180px;
-  height: 90px;
-  position: absolute;
-  top:760px;
-  left: 40%;
-}
-#grass6 {
-  width: 180px;
-  height: 90px;
-  position: absolute;
-  top:760px;
-  left:50%;
-}
-#grass7{
-  width: 180px;
-  height: 90px;
-  position: absolute;
-  top:760px;
-  left: 60%;
-}
-#grass8 {
-  width: 180px;
-  height: 90px;
-  position: absolute;
-  top:760px;
-  left: 70%;
-}
-#grass9 {
-  width: 180px;
-  height: 90px;
-  position: absolute;
-  top:760px;
-  left: 80%;
-}
-#grass10 {
-  width: 180px;
-  height: 90px;
-  position: absolute;
-  top:760px;
-  left: 87%;
-}
-
-h5{
-font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-font-size: 3pt;
-color: #15983A;
+  top: 200px;
+  left: 1000px;
 }
