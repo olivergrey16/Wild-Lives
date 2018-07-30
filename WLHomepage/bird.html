@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <link rel="stylesheet" type="text/css" href="WLHomepage.css">
+  <link rel="stylesheet" type="text/css" href="bird.css">
   <script src="bird.js"> </script>
 </head>
 
@@ -21,11 +21,43 @@
   <li><a id=bird href="bird.html">Help! I Found A Baby Bird</a></li>
 </ul>
 </nav>
+<div id="all">
+<div id=spacing>
+  <h3>
+  <p>
+    Did you find a baby bird and are not quite sure what to do? Take the quiz below and find out how you can help it!
 
-<div id="quiz">
-  <p id="textarea">
-    Is the bird a nestilng or a fledgling?
   </p>
-    <button type="button" id="nestling" onclick="Nestling()">Nestilng</button>
-    <button type="button" id="fledgling">Fledgling</button>
+</h3>
+
 </div>
+
+<div id="div2">
+<div id="quiz">
+
+  <h2><p id="questionHeader">
+    Is the bird a nestling or a fledgling?
+  </p>
+  </h2>
+  <div id="buttons">
+    <button type="button" id="nestling" display="block" onclick="Nestling()" class="button1">
+      <div id="head"> Nestling </div>
+      <p>
+        A nestling is a baby bird that has no feathers or is missing some feathers. Nestlings are also very small.
+      </p></button>
+    <button type="button" id="fledgling" display="block" onclick="Fledgling()" class="button2">
+      <div id= "head2">
+        Fledgling
+      </div>
+      <div>
+        <p>
+          A fledgling is a baby bird with all of its feathers and is able to walk around. Fledglings are small, but not tiny.
+        </p>
+      </div>
+      </button>
+    </div><!--end buttons div-->
+</div><!--end quiz div-->
+</div>
+</div>
+</body>
+</html>

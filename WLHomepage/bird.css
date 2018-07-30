@@ -1,0 +1,126 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: #15983A;
+    width: 100%;
+
+}
+
+li {
+    list-style-type: none;
+    float: left;
+}
+
+li a {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #15983A;
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  width: auto;
+}
+
+.sticky{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #1bc14a;
+}
+#logo{
+  align: center;
+  text-align: center;
+}
+
+#logo_img {
+  height: 91.2px;
+  width: 333.2px;
+}
+h2 {
+font-family: "Verdana", sans-serif;
+color: #15983A;
+font-size: 18pt;
+font-weight: lighter;
+}
+
+.button1 {
+background-color: #15983A;
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+color: white;
+font-size: 12pt;
+font-weight: lighter;
+padding: 14px 40px;
+width: 250px;
+height: 190px;
+float: center;
+border: 2px solid #15983A;
+}
+
+.button2 {
+background-color: #15983A;
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+color: white;
+font-size: 12pt;
+font-weight: lighter;
+padding: 12px 40px;
+width: 250px;
+height: 190px;
+float: center;
+border: 2px solid #15983A;
+}
+
+button:hover {
+  background-color: white;
+  color: #15983A;
+  border: 2px solid #15983A;
+  padding: 14px 40px;
+}
+
+#all {
+  background-image: url("Birbs!.png");
+  height: 700px;
+}
+
+#quiz {
+  align: center;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 25px;
+  background-color: #79d279;
+  width: 600px;
+
+
+}
+
+#div2 {
+  align-content: center;
+  text-align: center;
+  padding-left: 28%;
+
+}
+
+#buttons {
+  text-align: center;
+  align-items: center;
+}
+
+h3 {
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+color: #15983A;
+font-size: 18pt;
+font-weight: lighter;
+}
