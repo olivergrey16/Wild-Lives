@@ -51,76 +51,28 @@ li a:hover {
   width: 333.2px;
 }
 h2 {
-font-family: "Verdana", sans-serif;
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 color: #15983A;
-font-size: 18pt;
-font-weight: lighter;
-}
-
-.button1 {
-background-color: #15983A;
-font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-color: white;
 font-size: 12pt;
 font-weight: lighter;
-padding: 14px 40px;
-width: 250px;
-height: 190px;
-float: center;
-border: 2px solid #15983A;
 }
 
-.button2 {
-background-color: #15983A;
-font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-color: white;
-font-size: 12pt;
-font-weight: lighter;
-padding: 12px 40px;
-width: 250px;
-height: 190px;
-float: center;
-border: 2px solid #15983A;
-}
-
-button:hover {
-  background-color: white;
-  color: #15983A;
-  border: 2px solid #15983A;
-  padding: 14px 40px;
-}
-
-#all {
-  background-image: url("Birbs!.png");
-  height: 700px;
-}
-
-#quiz {
+#bird{
   align: center;
   text-align: center;
-  padding-top: 15px;
-  padding-bottom: 25px;
-  background-color: #79d279;
-  width: 600px;
-
-
 }
 
-#div2 {
-  align-content: center;
+#deer{
+  align: center;
   text-align: center;
-  padding-left: 28%;
-
 }
 
-#buttons {
+#panda{
+  align: center;
   text-align: center;
-  align-items: center;
 }
 
-h3 {
-font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-color: #15983A;
-font-size: 18pt;
-font-weight: lighter;
+#dolphin{
+  align: center;
+  text-align: center;
 }
