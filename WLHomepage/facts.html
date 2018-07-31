@@ -1,17 +1,34 @@
 <!DOCTYPE html>
   <html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="facts.css">
+  </head>
+  <body>
+  <div id="logo">
+  <p>
+  <a href="WLHomepage.html"><img id="logo_img" src="Wildliveslogo.png" ></a>
+  </p>
+  </div>
+    <nav width="100%">
+  <ul>
+    <li><a id="game" href="WLgame.html">Maze Game</a></li>
+    <li> <a id="factpage" href="facts.html">Fun Facts</a></li>
+    <li><a id="deerhelp" href="deer.html">Help! I Found A Baby Deer</a></li>
+    <li><a id="bird" href="bird.html">Help! I Found A Baby Bird</a></li>
+  </ul>
+  </nav>
   <script>
 
 
   var facts = [];
-  facts.push("the avarage baby deer (fawn) has 294 to 306 spots!");
-  facts.push("at approximately one week old a baby deer (fawn) discover their speed");
-  facts.push("young pandas eat the feces of their mother");
+  facts.push("The avarage baby deer (fawn) has 294 to 306 spots!");
+  facts.push("At approximately one week old a baby deer (fawn) discover their speed");
+  facts.push("Young pandas eat the feces of their mother");
   facts.push("99% of a pandas diet consist of bamboo");
   facts.push("The oldest Northern cardinal ever recorded was 15 years old and 9 months old");
-  facts.push("when a female cardinal sings that means she is telling the male she needs more food");
+  facts.push("When a female cardinal sings that means she is telling the male she needs more food");
   facts.push("40 species of dolphins swim the waters of the world");
-  facts.push("dolphins are carnivores");
+  facts.push("Dolphins are carnivores");
 
   var index = 0;
   function generator() {
@@ -25,11 +42,20 @@
 
   }
   </script>
-
-
-<button onclick="generator()" type="button"> Random fact generator</button/>
-
-<div id="fact">
-"the avarage baby deer (fawn) has 294 to 306 spots!"
+<div id="space">
+  <h2> Click the button below to get a fun fact!</h2>
 </div>
+<div id="another">
+<div id="generator">
+<div id="button">
+<button onclick="generator()" type="button" class="button">Fun Facts!</button/>
+</div>
+
+<h3><div id="fact">
+The avarage baby deer (fawn) has 294 to 306 spots!
+</div>
+</h3>
+</div>
+</div>
+</body>
 </html>
