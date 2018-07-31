@@ -124,16 +124,23 @@ font-weight: lighter;
   height: 350px;
 }
 
+.Avi_d {
+  height: 150px;
+}
+
 #item_container {
   flex-direction: column;
   display: block;
+  text-align: center;
+  justify-content: center;
 }
 
 .item {
   flex-direction: row;
   display: flex;
+  justify-content: center;
 }
 
 .scratch {
-  width: 600px;
+  width: 500px;
 }
