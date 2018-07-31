@@ -51,28 +51,63 @@ li a:hover {
   width: 333.2px;
 }
 h2 {
-font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font-family: "Verdana", sans-serif;
 color: #15983A;
-font-size: 14pt;
+font-size: 18pt;
 font-weight: lighter;
 }
 
-iframe {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-
-}
-
-.verticalLine {
-  border-left: thick solid #15983A;
-}
-#submit {
+.button {
 background-color: #15983A;
 font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 color: white;
-font-size: 9pt;
+font-size: 12pt;
 font-weight: lighter;
+padding: 14px 40px;
+width: 250px;
+height: 90px;
 border: 2px solid #15983A;
+}
+
+
+#buttons {
+  text-align: center;
+  align-items: stretch;
+}
+
+#generator {
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  background-color: #79d279;
+  width: 400px;
+  padding-top: 50px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#space {
+  text-align: 
+}
+
+#another {
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  padding-left: 35%;
+}
+
+button:hover {
+  background-color: white;
+  color: #15983A;
+  border: 2px solid #15983A;
+  padding: 14px 40px;
+}
+
+h3 {
+font-family: "Verdana", sans-serif;
+color: white;
+font-size: 18pt;
+font-weight: lighter;
 }
