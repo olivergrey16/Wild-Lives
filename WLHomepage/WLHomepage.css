@@ -195,7 +195,13 @@ background-color:#1bc14a;
   top:760px;
   left: 87%;
 }
-
+#speech {
+  width: 133.33px;
+  height: 100.4667px;
+  position: absolute;
+  top: 605px;
+  left: 27.5%;
+}
 h5{
 font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 font-size: 3pt;

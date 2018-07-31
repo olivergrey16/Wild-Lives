@@ -57,7 +57,7 @@ font-size: 18pt;
 font-weight: lighter;
 }
 
-.button1 {
+.button1, .button2 {
 background-color: #15983A;
 font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 color: white;
@@ -70,18 +70,18 @@ float: center;
 border: 2px solid #15983A;
 }
 
-.button2 {
+/* .button2 {
 background-color: #15983A;
 font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 color: white;
 font-size: 12pt;
 font-weight: lighter;
-padding: 12px 40px;
+padding: 14px 40px;
 width: 250px;
 height: 190px;
 float: center;
 border: 2px solid #15983A;
-}
+} */
 
 button:hover {
   background-color: white;
@@ -114,12 +114,22 @@ button:hover {
 
 #buttons {
   text-align: center;
-  align-items: center;
+  align-items: stretch; */
+}
+
+.button_content {
+  height: 80px;
 }
 
 h3 {
 font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 color: #15983A;
 font-size: 18pt;
+font-weight: lighter;
+}
+h4 {
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+color: #15983A;
+font-size: 8pt;
 font-weight: lighter;
 }
