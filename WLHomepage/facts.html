@@ -1,15 +1,35 @@
 <!DOCTYPE html>
   <html>
+  <script>
 
-<button onclick="random fact generator()" type="button"> Random fact generator</button/>
-  <script> type="newborns are able to walk within hours of being bornt"
 
-  list<string> facts = new ArrayList<string>();
-  facts.add("the avarage baby deer (fawn) has 294 to 306 spots!");
-  facts.add("at approximately one week old a baby deer (fawn) discover their speed");
+  var facts = [];
+  facts.push("the avarage baby deer (fawn) has 294 to 306 spots!");
+  facts.push("at approximately one week old a baby deer (fawn) discover their speed");
+  facts.push("young pandas eat the feces of their mother");
+  facts.push("99% of a pandas diet consist of bamboo");
+  facts.push("The oldest Northern cardinal ever recorded was 15 years old and 9 months old");
+  facts.push("when a female cardinal sings that means she is telling the male she needs more food");
+  facts.push("40 species of dolphins swim the waters of the world");
+  facts.push("dolphins are carnivores");
 
-  facts.add("99% of a pandas diet consist of bamboo");
-  facts.add("The oldest Northern cardinal ever recorded was 15 years old and 9 months old");
-facts.add("when a female cardinal sings that means she is telling the male she needs more food");
-facts.add("40 species of dolphins swim the waters of the world");
-facts.add("dolphins are carnivores");
+  var index = 0;
+  function generator() {
+
+  document.getElementById("fact").innerHTML = facts[index + 1];
+  index +=1;
+  if (index == 7) {
+    index = -1;
+
+  }
+
+  }
+  </script>
+
+
+<button onclick="generator()" type="button"> Random fact generator</button/>
+
+<div id="fact">
+"the avarage baby deer (fawn) has 294 to 306 spots!"
+</div>
+</html>
