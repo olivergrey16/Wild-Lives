@@ -73,7 +73,7 @@ font-size: 12pt;
 font-weight: lighter;
 }
 
-#bird{
+/* #bird{
   align: center;
   text-align: center;
 }
@@ -91,4 +91,56 @@ font-weight: lighter;
 #dolphin{
   align: center;
   text-align: center;
+} */
+
+/*BirdAvi{
+  width: 20%;
+  height: auto;
+
+}
+
+#DeerAvi{
+  width: 30%;
+  height: auto;
+  margin-left: 75%;
+}
+
+#PandaAvi{
+  width: 25%;
+  height: auto;
+}
+
+#DolphinAvi{
+  width: 25%;
+  height: auto;
+} */
+
+.Avi_left {
+  height: 200px;
+
+}
+
+.Avi_right {
+  height: 350px;
+}
+
+.Avi_d {
+  height: 150px;
+}
+
+#item_container {
+  flex-direction: column;
+  display: block;
+  text-align: center;
+  justify-content: center;
+}
+
+.item {
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+}
+
+.scratch {
+  width: 500px;
 }
